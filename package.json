@@ -1,8 +1,9 @@
 {
-  "name": "frontend",
+  "name": "login-app-frontend",
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "author": "Leandro Costa <dev.leandro.91@gmail.com> (https://curriculum-leandro-costa.vercel.app/en)",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -24,6 +25,7 @@
   },
   "devDependencies": {
     "@testing-library/react": "^16.0.0",
+    "@tsconfig/vite-react": "^3.0.2",
     "@types/node": "^20.14.10",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
